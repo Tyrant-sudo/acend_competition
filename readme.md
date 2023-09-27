@@ -37,24 +37,24 @@ Label的数据维度为（288，768），可以经过[utils.py](mindflow.cell.ut
 
 本项目的目录结构和文件遵循model zoo代码目录规范，具体如下：
 
-project-root-directory
-│
-├── src
-│ ├── __init__.py
-│ ├── dataset.py
-│ ├── utils.py
-│ ├── visualization.py
-├── data
-│ ├── flowfield_000_050.mind     
+project-root-directory  
+│  
+├── src  
+│ ├── __init__.py  
+│ ├── dataset.py  
+│ ├── utils.py  
+│ ├── visualization.py  
+├── data  
+│ ├── flowfield_000_050.mind  
 | ├── flowfield_000_050.mind.db  
-| ├── test_dataset.mind       
+| ├── test_dataset.mind  
 | ├── test_dataset.mind.db  
-| ├── train_dataset.mind 
-| ├── train_dataset.mind.db
-├──  configs
-│ ├── vit.yaml
-├── test.py 
-└── train.py
+| ├── train_dataset.mind  
+| ├── train_dataset.mind.db  
+├──  configs  
+│ ├── vit.yaml  
+├── test.py  
+└── train.py  
 
 
 ## 3. 自验结果
