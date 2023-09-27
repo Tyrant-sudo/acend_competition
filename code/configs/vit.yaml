@@ -1,0 +1,35 @@
+model:
+  name: "ViT"
+  encoding_method: "D"
+  in_channels: 3
+  out_channels: 3
+  height: 192
+  width: 384
+  encoder_depth: 6
+  encoder_embed_dim: 768
+  encoder_num_heads: 12
+  decoder_depth: 6
+  decoder_embed_dim: 512
+  decoder_num_heads: 16
+
+data:
+  train_dataset_path: "../../dataset/train_dataset.mind"
+  test_dataset_path: "../../dataset/test_dataset.mind"
+  finetune_dataset_path: "../../dataset/finetune_dataset.mind"
+  finetune_size: 0.2
+  grid_path: "../../dataset/grid.npy"
+  batch_size: 32
+  max_value_list: [ 4.6, 1.0, 0.18418664581293126]
+  min_value_list: [-2.0, -0.18382872836312403, -0.1839052340212462]
+
+optimizer:
+  epochs: 1000
+  lr: 0.0005
+  wave_level: 1
+
+summary_dir: "./summary_dir"
+test_interval: 50
+plot_interval: 100
+save_ckpt_interval: 100
+pretrained_ckpt_path: "path/to/ckpt"
+postprocess_dir: "./postprocess_dir/visualization/"
