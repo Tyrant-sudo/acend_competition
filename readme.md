@@ -29,7 +29,7 @@ Label的数据维度为（288，768），可以经过[utils.py](mindflow.cell.ut
 
 ### 1.3. 代码提交地址
 
-代码仓库地址：[GitHub Repo](https://github.com/your-repo-link)  
+代码仓库地址：[GitHub Repo](https://github.com/Tyrant-sudo/acend_competition/tree/master/code)  
 
 ### 1.4. 其它
 
